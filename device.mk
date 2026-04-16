@@ -132,8 +132,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors-multihal.xml \
     android.hardware.usb-aidl-service.mediatek.xml \
     android.hardware.usb.gadget-service.mediatek.xml \
-    android.hardware.wifi.hostapd.xml \
-    android.hardware.wifi.supplicant.xml \
     android.hardware.wifi@1.0-service.xml \
     bluetooth_audio.xml \
     dumpstate-xiaomi.xml \
