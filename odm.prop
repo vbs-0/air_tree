@@ -1,0 +1,7 @@
+# Reconstructed from phone truth
+odm.security.rootpub.load=true
+odm.security.rotatekey.load=2026-06-08 09:18:49
+ro.odm.build.date.utc=1733841596
+ro.odm.build.date=Tue Dec 10 14:39:56 UTC 2024
+ro.odm.build.fingerprint=POCO/air_p_in/air:13/TP1A.220624.014/V816.0.5.0.UGQINXM:user/release-keys
+ro.odm.build.version.incremental=V816.0.5.0.UGQINXM

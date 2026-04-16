@@ -1,0 +1,52 @@
+# Finalized .gitignore for POCO M6 5G (air) Tree
+
+# Build artifacts
+out/
+built rom/
+built vendorboot/
+*.img
+*.lz4
+*.bin
+*.tar.gz
+*.zip
+
+# Analysis junk (Stock logs & Extraction traces)
+stock_*/
+phone_*/
+*.txt
+!proprietary-files*.txt
+!README.md
+!missing_blobs.txt
+
+# Scripts
+*.py
+*.sh
+!extract-files.sh
+!setup-makefiles.sh
+
+# IDE and System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Recovery extraction artifacts
+extracted_ramdisk/
+dtb/
+dtbo/
+kernel/
+
+# Specific excludes
+!device/xiaomi/air-kernel/**
+!configs/vintf/**
+!rootdir/etc/**
+!BoardConfig.mk
+!device.mk
+!lineage_air.mk
+!Android.mk
+!Android.bp
+!AndroidProducts.mk
+!odm.prop
+!system.prop
+!system_ext.prop
+!vendor.prop

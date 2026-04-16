@@ -1,0 +1,52 @@
+# Audio
+ro.audio.silent=0
+
+# Bluetooth 
+bluetooth.profile.a2dp.source.enabled=true
+bluetooth.profile.avrcp.target.enabled=true
+bluetooth.profile.hfp.ag.enabled=true
+bluetooth.profile.hid.host.enabled=true
+bluetooth.profile.pan.panu.enabled=true
+bluetooth.profile.pbap.server.enabled=true
+
+# Display 
+debug.sf.latch_unsignaled=1
+debug.sf.disable_backpressure=1
+ro.hwui.max_texture_allocation_size=209715200
+ro.opengles.version=196610
+
+# Media
+media.stagefright.thumbnail.prefer_hw_codecs=true
+
+# Wi-Fi
+wifi.interface=wlan0
+wifi.direct.interface=p2p0
+
+# Dalvik / ART 
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.heapsize=512m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.usejit=true
+dalvik.vm.useartservice=true
+
+# Dexopt
+pm.dexopt.install=speed-profile
+pm.dexopt.install-fast=skip
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.first-use=speed-profile
+pm.dexopt.boot-after-ota=verify
+pm.dexopt.ab-ota=speed-profile
+
+# System
+net.bt.name=Android
+ro.camera.sound.forced=0
+ro.com.android.mobiledata=false
+ro.postinstall.fstab.prefix=/system
+ro.product.property_source_order=odm,vendor,product,system
+
+# Performance / Security
+security.perf_harden=1
+
+# Navigation
+qemu.hw.mainkeys=0

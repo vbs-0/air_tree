@@ -1,0 +1,10 @@
+ota-property-files=payload_metadata.bin:4372:96302,payload.bin:4372:1267277568,payload_properties.txt:1267281998:155,apex_info.pb:2362:925,care_map.pb:3334:991,metadata:69:694,metadata.pb:831:1483                        
+ota-required-cache=0
+ota-streaming-property-files=payload.bin:4372:1267277568,payload_properties.txt:1267281998:155,apex_info.pb:2362:925,care_map.pb:3334:991,metadata:69:694,metadata.pb:831:1483                          
+ota-type=AB
+post-build=Redmi/lineage_air/air:13/TQ3A.230901.001/eng.suchit.20260414.145811:eng/test-keys
+post-build-incremental=eng.suchit.20260414.145811
+post-sdk-level=33
+post-security-patch-level=2026-02-01
+post-timestamp=1776178609
+pre-device=air
