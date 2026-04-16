@@ -69,9 +69,9 @@ BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)-kernel/Image.lz4
-BOARD_PREBUILT_DTBIMAGE := $(DEVICE_PATH)-kernel/dtb/dtb.img
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)-kernel/dtbo.img
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/device_xiaomi_air-kernel/Image.lz4
+BOARD_PREBUILT_DTBIMAGE := $(DEVICE_PATH)/device_xiaomi_air-kernel/dtb.img
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/device_xiaomi_air-kernel/dtbo.img
 TARGET_KERNEL_CONFIG := air_defconfig
 TARGET_KERNEL_SOURCE := $(DEVICE_PATH)-kernel/kernel-headers
 
