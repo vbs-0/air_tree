@@ -118,6 +118,48 @@ PRODUCT_PACKAGES += \
     NetworkStackInProcessResOverlay.apk \
     NetworkStackResOverlay.apk \
     TetheringResOverlay.apk \
+    compatibility_matrix.xml \
+    android.hardware.biometrics.fingerprint@2.1-service.xml \
+    android.hardware.boot@1.2.xml \
+    android.hardware.cas@1.2-service-lazy.xml \
+    android.hardware.drm-service.clearkey.xml \
+    android.hardware.health-service.example.xml \
+    android.hardware.identity@4.0-service.mitee.xml \
+    android.hardware.neuralnetworks-shim-service-mtk.xml \
+    android.hardware.security.keymint-service.mitee.xml \
+    android.hardware.security.secureclock-service.mitee.xml \
+    android.hardware.security.sharedsecret-service.mitee.xml \
+    android.hardware.sensors-multihal.xml \
+    android.hardware.usb-aidl-service.mediatek.xml \
+    android.hardware.usb.gadget-service.mediatek.xml \
+    android.hardware.wifi.hostapd.xml \
+    android.hardware.wifi.supplicant.xml \
+    android.hardware.wifi@1.0-service.xml \
+    bluetooth_audio.xml \
+    dumpstate-xiaomi.xml \
+    em_hal_service.xml \
+    gnss-default.xml \
+    gnss@2.1-service-mediatek.xml \
+    lbs_hidl_service@1.0.xml \
+    lights-mtk-default.xml \
+    manifest_android.hardware.drm-service.widevine.xml \
+    manifest_cameraproviderhidl.xml \
+    manifest_hwcomposer.xml \
+    manifest_media_c2_V1_1_default.xml \
+    manifest_vendor.xiaomi.hardware.otrpagent@2.0.xml \
+    memtrack-mediatek.xml \
+    mrm.xml \
+    mtkgnss-batching.xml \
+    mtkpower_applist-mtk-default.xml \
+    power-mediatek.xml \
+    vendor.xiaomi.hardware.micharge@1.0.xml \
+    vendor.xiaomi.hardware.mimd@1.0-service.xml \
+    vendor.xiaomi.hardware.misys@1.0.xml \
+    vendor.xiaomi.hardware.misys@2.0.xml \
+    vendor.xiaomi.hardware.misys@3.0.xml \
+    vendor.xiaomi.hardware.misys@4.0.xml \
+    vibrator-mtk-default.xml \
+    manifest.xml \
     CellbroadcastUIResOverlay.apk \
     FrameworkResOverlay.apk \
     FrameworkResOverlayExt.apk \
