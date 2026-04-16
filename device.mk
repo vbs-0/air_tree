@@ -166,6 +166,19 @@ PRODUCT_PACKAGES += \
     WifiResMainlineOverlay.apk \
     WifiResOverlay.apk \
     GpuGameDriver.mt6835.apk \
+    vendor.xiaomi.hardware.fx.tunnel@1.0-service.xml \
+    manifest_c3vcn.xml \
+    manifest_c3vcn_ss.xml \
+    manifest_c3vcnl.xml \
+    manifest_c3vcnl_ss.xml \
+    manifest_c3vg.xml \
+    manifest_c3vg_ss.xml \
+    manifest_c3vgl.xml \
+    manifest_c3vgl_ss.xml \
+    manifest_c3vin.xml \
+    manifest_c3vin_ss.xml \
+    manifest_c3vinl.xml \
+    manifest_c3vinl_ss.xml \
     BluetoothExtension.apk \
     DebugLoggerUI.apk \
     EngineerMode.apk \
@@ -185,6 +198,9 @@ PRODUCT_PACKAGES += \
     miuix.apk \
     MtkCalendar.apk \
     BuildManifestSystemExt.apk \
+    manifest_hypsys_system.xml \
+    mtk-mbrainj-default.xml \
+    manifest.xml \
     CapCtrlInterface.jar \
     CustomPropInterface.jar \
     MiuiBooster.jar \
