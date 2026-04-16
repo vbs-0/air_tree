@@ -1,11 +1,1 @@
 # Reconstructed from phone truth
-ro.system_ext.build.date.utc=1733841196
-ro.system_ext.build.date=Tue Dec 10 14:33:16 UTC 2024
-ro.system_ext.build.fingerprint=Android/missi_phone_global/missi:14/UP1A.231005.007/V816.0.5.0.UGQINXM:user/release-keys
-ro.system_ext.build.id=UP1A.231005.007
-ro.system_ext.build.tags=release-keys
-ro.system_ext.build.type=user
-ro.system_ext.build.version.incremental=V816.0.5.0.UGQINXM
-ro.system_ext.build.version.release=14
-ro.system_ext.build.version.release_or_codename=14
-ro.system_ext.build.version.sdk=34
