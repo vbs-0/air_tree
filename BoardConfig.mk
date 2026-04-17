@@ -130,15 +130,13 @@ TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 
 # Kernel modules
-BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(KERNEL_PREBUILT_PATH)/modules.load.vendor_ramdisk))
-BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(addprefix $(KERNEL_PREBUILT_PATH)/modules_ramdisk/, $(BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD))
-
-# Also add recovery modules to vendor ramdisk
-BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(strip $(shell cat $(KERNEL_PREBUILT_PATH)/modules.load.recovery))
-RECOVERY_MODULES := $(addprefix $(KERNEL_PREBUILT_PATH)/modules_ramdisk/, $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD))
+# Kernel Modules
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(wildcard $(KERNEL_PREBUILT_PATH)/modules_ramdisk/*.ko)
+BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULE_LOAD := $(shell cat $(KERNEL_PREBUILT_PATH)/modules.load.recovery)
+BOARD_RECOVERY_KERNEL_MODULES := $(addprefix $(KERNEL_PREBUILT_PATH)/modules_ramdisk/, $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULE_LOAD))
 
 # Prevent duplicated entries (to solve duplicated build rules problem)
-BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(sort $(BOARD_VENDOR_RAMDISK_KERNEL_MODULES) $(RECOVERY_MODULES))
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(sort $(BOARD_VENDOR_RAMDISK_KERNEL_MODULES) $(BOARD_RECOVERY_KERNEL_MODULES))
 
 # Vendor modules (installed to vendor_dlkm)
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(KERNEL_PREBUILT_PATH)/modules.load))
