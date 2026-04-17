@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/air/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := air
-PRODUCT_NAME := lineage_air
+PRODUCT_NAME := lineage_air-bp4a
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi 13C 5G
 PRODUCT_MANUFACTURER := xiaomi
